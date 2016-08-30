@@ -92,24 +92,25 @@ label {
 }
 
 #name {
+    border-width: 0.1px;
     border-radius: 6px; 
-    border-width: 1px;
     width: 450px;
 }
 
 #email {
+    border-width: 0.1px;
     border-radius: 6px;
-    border-width: 1px;
     width: 450px;
 }
 
 #telephone {
-    border-width: 1px;
+    border-width: 0.1px;
     border-radius: 6px;
     width: 440px;
 }
 
 #message {
+    border-width: 0.1px;
     border-radius: 6px;
     width: 500px;
 }
