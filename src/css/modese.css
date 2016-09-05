@@ -70,14 +70,87 @@ aside h3 {
     text-decoration: underline;
     color: #BDBDBD;
     }
-
-#products-list {
-    float: right;
-    min-height: 600px;
-    width: 70%;
+/*CSS INDEX*/
+.imgbanner{
+	width:100%; 
+	height:600px;
 }
 
-/*TESTANDO CSS CONTATO*/
+#barra{	
+		margin-left:400px;
+		margin-right:400px;
+		height: 60px; 
+		background-color:#212121;
+		padding: auto;
+		border-radius:4px;
+		margin-bottom:20px;
+}
+#barra h2{
+		text-align:center;
+		padding-top:18px;
+		overflow:hidden;	
+		color: white;
+		font-weight: bold;
+}
+
+#barra h2 a {
+		color: white;
+		text-decoration: none;
+}
+#barra2{	
+		margin-left:400px;
+		margin-right:400px;
+		height: 60px; 
+		background-color:#212121;
+		padding: auto;
+		border-radius:4px;
+		margin-bottom:20px;
+}
+#barra2 h2{
+		text-align:center;
+		padding-top:18px;
+		overflow:hidden;	
+		color: white;
+		font-weight: bold;
+}
+#barra2 h2 a {
+		color: white;
+		text-decoration: none;
+}
+.prods1{
+		width:1092px;
+        margin:0  auto;
+        overflow:hidden;
+        background-color:white;
+        margin-bottom:20px;
+}
+.prods1 .prod{
+		width:auto;
+        height:500px;
+        float:left;
+}
+
+.prods1 .prod{
+	        margin:3px;
+}
+
+.prods1 a {
+		text-decoration:none;
+		color:black;
+}
+
+.prods1 a p {
+		margin : 0 auto;
+}
+
+.imgprod {
+		width:267px; 
+		height:350px;
+}
+
+/*FIM CSS INDEX*/
+
+/* CSS CONTATO*/
 
 fieldset {
     border: none;
@@ -124,7 +197,13 @@ em {
     clear: both;
 }
 
-/*fim do teste css contato*/
+/*FIM CSS CONTATO*/
+
+#products-list {
+    float: right;
+    min-height: 600px;
+    width: 70%;
+}
 
 .product-card {
     height: 200px;
