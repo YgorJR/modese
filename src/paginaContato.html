@@ -37,29 +37,41 @@
     </header>  
 
     <div class="container">
-        <form action id="contactForm" method="post">
-            <h2 class="legend">Informações de contato</h2>
-            <fieldset class="form-nome">
-                <label for="" class="required"><em>*  </em>Nome</label>
-                <input name="" id="name" title="Nome" type="text">
-            </fieldset>
-            <fieldset class="form-email">
-                <label for="" class="required"><em>*  </em>Email</label>
-                <input type="text" id="email" title="Email">
-            </fieldset>
-            <fieldset class="form-telefone">
-                 <label for="telephone">Telefone</label>
-                 <input name="telephone" id="telephone" title="Telefone" type="text">
-            </fieldset>
-            <fieldset class="form-mensagem">
-                <label for="message"><em>* </em>Mensagem</label><br >
-                <textarea name="message" id="message" title="Mensagem" cols="30" rows="10"></textarea>
-            </fieldset>
-            <fieldset class="button-set">
-                <p class="required">* Campos Obrigatórios</p>
-            <button type="submit" title="Enviar" class="btn btn-primary">Enviar</button>
-            </fieldset>
-        </form>
+        <div class="formulario">
+            <div class="info">
+                <h2>FORMULÁRIO DE CONTATO</h2>
+            </div>
+            <div class="forms">
+                <div class="nome">
+                    <label for="nome">Nome</label><br/>
+                    <input id="nome" type="text" >
+                </div>
+                <div class="email">
+                    <label for="email">E-mail</label><br/>
+                    <input id="email" type="text" >
+                </div>
+
+                <div class="telefone">
+                    <label for="telefone">Telefone</label><br/>
+                    <input id="telefone" type="text" >
+                </div>
+
+                <div class="assunto">
+                    <label for="assunto">Assunto</label><br/>
+                    <input id="assunto" type="text" >
+                </div>
+
+                <div class="mensagem">
+                    <label class="msg" for="mensagem">Mensagem</label><br/>
+                    <textarea id="mensagem" ></textarea>
+                </div>
+
+                <div class="enviar">
+                    <button  type="submit">Enviar</button>
+                </div>
+            </div>
+        </div>
+
     </div>
     <footer>
         <div id="text-footer">
