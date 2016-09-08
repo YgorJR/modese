@@ -1,6 +1,6 @@
 .container {
     margin: 0 auto;
-    width: 940px;
+    width: 1092px;
 }
 
 #brand {
@@ -53,6 +53,17 @@ aside {
 
 aside h3 {
     color: #212121;
+}
+
+.ordenarProdutos{
+    float: right;
+    margin-right: 60px;
+    margin-top: -35px;
+}
+
+.ordenarP{
+    font: bold;
+    color: #9E9E9E;
 }
 
 #menu-left ul li {
@@ -201,58 +212,33 @@ em {
 
 #products-list {
     float: right;
-    min-height: 600px;
+    min-height: 420px;
     width: 70%;
-}
-
-.product-card {
-    height: 200px;
-    width: 100%;
-    float: left;
-    margin-bottom: 5px;
 }
 
     .product-image {
         float: left;
         width: 30%;
+        margin-right:25px;
+        margin-bottom: 60px;
     }
 
-    .product-info {
-        float: right;
-        height: 200px;
-        position: relative;
-        width: 70%;
+    .product-image a {
+        text-decoration: none;
+        color : #212121;
+    }
+      .product-image .img :hover {
+        background-color: #9E9E9E;
+    }
+
+    .product-image p {
+        font: bold;
+        font-size: 16pt;
     }
     .product-image img {
         padding: 0;
-        width: 100%;;
-    }
-
-    .product-info h6 {
-        color: #393838;
-        font-size: 36px;
-        margin: 0;
-        padding: 0;
-        padding-left: 10px;
-    }
-
-    .product-info span {
-        color: red;
-        font-size: 24px;
-        display: block;
-        padding-left: 10px;
-        position: absolute;
-    }
-
-    .product-info a {
-        bottom: 0;
-        text-decoration: none;
-        padding-left: 10px;
-        position: absolute;
-    }
-
-    .product-info a:hover {
-        text-decoration: underline;
+        width:250px; 
+        height:300px
     }
 
 footer {
