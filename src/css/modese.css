@@ -21,7 +21,7 @@ header{
 
 #brand {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
     font-size: 22pt;
     font-weight: bold;
     height: 50px;
@@ -345,9 +345,9 @@ figure {
     width:relative;
     margin-left: 175px;
     margin-right: 150px;
-    margin-top: 100px;
+    margin-top: 50px;
     height: 400px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .info h2{
     text-align: center;
@@ -361,45 +361,54 @@ figure {
     margin-left: 310px;
 }
 .nome{
-    float: left;   
+    float: left;
+    margin-top: 10px;   
     margin-left: 20px;
     margin-right:0 auto;
     margin-bottom: 20px;
 }
 #nome{
+    height: 22px;
     width: 330px;
 }
 .email{
     float: left;   
+    margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
 #email{
+    height: 22px;
     width: 330px;
 }
 .telefone{
-    float: left;   
+    float: left;  
+    margin-top: 10px; 
     margin-left: 20px;
     margin-right: 0 auto;
     margin-bottom: 20px;
 }
 #telefone{
+    height: 22px;
     width: 330px;
 }
 .assunto{
     float: left;   
+    margin-top: 10px;
     margin-left: 20px;
     margin-right: 0 auto;
     margin-bottom: 20px;
 }
 #assunto{
+    height: 22px;
     width: 330px;
 }
 .mensagem{
     float: left;   
     margin-left: 20px;
     margin-right: 100px;
+    margin-top: 10px;
 }
 #mensagem{
     width:680px;
@@ -410,6 +419,26 @@ figure {
     float: left;   
     margin-left: 350px;
     margin-right: 300px;  
+}
+
+
+.botao {
+    font-weight: 700;
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 12px;
+    line-height: 1.42857143;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    margin-left: -30px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
 }
 
 /*FIM CSS CONTATO*/
