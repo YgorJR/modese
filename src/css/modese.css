@@ -477,17 +477,77 @@ figure {
         height:300px
     }
 
-footer {
+
+footer { 
     clear: both; /*Joga o rodapé abaixo do maior elemento anterior*/
     background-color: #212121;
-    height: 100px;
+    height: 300px;
 }
 
-#text-footer {
+.text-footer-left{
     color: #9E9E9E;
-    margin: 0 auto;
-    text-align: center;
-    width: 940px;
+    float: left;
     font-size: 15px;
+    margin: 0 auto;
+    margin-left: 35px;
+    padding-top: 20px;
+    text-align: center;
+    width: 30%;
 }
 
+    .text-footer-left a{
+        color: #9E9E9E;
+        text-decoration: none;
+        font-size: 12pt;
+    }
+
+#brand-footer{
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+}
+
+.text-footer-center {
+    color: #9E9E9E;
+    float: inherit;
+    font-size: 12pt;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    width: 40%;
+}
+    .text-footer-center a{
+        color: #9E9E9E;
+        text-decoration: none;
+        font-size: 12pt;
+    }
+
+    .text-footer-center p{
+        color: #9E9E9E;
+        font-size: 12pt;
+        text-decoration: none;
+    }
+
+    
+
+.text-footer-right {
+    color: #9E9E9E;
+    font-size: 12pt;
+    float: right;
+    margin-right: 35px;
+    margin-top: -120px;
+    text-align: center;
+    width: 30%;
+}
+    .text-footer-right a{
+        color: #9E9E9E;
+        text-decoration: none;
+        font-size: 10pt;
+    }
+
+      .text-footer-right p{
+        color: #9E9E9E;
+        text-decoration: none;
+        font: bold;
+        font-size: 12pt;
+    }
